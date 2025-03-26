@@ -14,5 +14,5 @@ public class Writer {
 	private Integer id;
 	private String username;
 	private String email;
-	private String pass_hash;
+	private String password;
 }
