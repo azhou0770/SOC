@@ -1,5 +1,8 @@
 package com.ant.soc.controller;
 
-public class WriterController {
+import org.springframework.stereotype.Controller;
 
+@Controller
+public class WriterController {
+	
 }
