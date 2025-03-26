@@ -1,8 +1,5 @@
 package com.ant.soc.service;
 
-import org.springframework.stereotype.Service;
-
-@Service
-public class EntryService {
-
+public interface EntryService {
+	public Integer createEntry(String text);
 }

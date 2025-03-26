@@ -2,7 +2,6 @@ package com.ant.soc.service;
 
 import org.springframework.stereotype.Service;
 
-@Service
-public class WriterService {
-
+public interface WriterService {
+	public Integer createWriter();
 }
